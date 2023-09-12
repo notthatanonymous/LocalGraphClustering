@@ -89,12 +89,12 @@ setup(
                         'networkx >= 1.11',
                         #'time >= 0.7',
                         #'copy >= 2.5',
-                        'matplotlib >= 2.0.0',
+                        #'matplotlib >= 2.0.0',
                         'typing',
-                        'matplotlib',
+                        #'matplotlib',
                         'pandas',
-                        'plotly',
-                        'sklearn',
+                        #'plotly',
+                        'scikit-learn',
                         'joblib'
                         ],
       
