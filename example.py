@@ -67,6 +67,7 @@ kwargs_list = [{"method":"l1reg-rand",
                 "iterations":100000,
                 "cpp":True,
                 "delta":0.01,
+                 "delta1":0.01,
                 "ratio":ratio} for ratio in [5, 10, 20]] #0.01*np.array(range(5,26))]
 
 records = semisupervised_learning(g_copy,clusters_copy,kwargs_list,nprocs=40,flowmethod="sl")
