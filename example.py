@@ -1,8 +1,18 @@
+# import sys
+# sys.path.append("../LocalGraphClustering/")
+# import localgraphclustering as lgc
+# from collections import Counter,defaultdict
+# import numpy as np
+
+
+
 import sys
 sys.path.append("../LocalGraphClustering/")
 import localgraphclustering as lgc
+from localgraphclustering.find_clusters import semisupervised_learning_with_improve,semisupervised_learning
 from collections import Counter,defaultdict
 import numpy as np
+
 
 rptr = open("notebooks/flow_paper_experiments/dataset/cora/cora.content","r")
 lines = rptr.readlines()
