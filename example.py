@@ -4,7 +4,7 @@ import localgraphclustering as lgc
 from collections import Counter,defaultdict
 import numpy as np
 
-rptr = open("notebooks/dataset/cora/cora.content","r")
+rptr = open("notebooks/flow_paper_experiments/dataset/cora/cora.content","r")
 lines = rptr.readlines()
 rptr.close()
 
