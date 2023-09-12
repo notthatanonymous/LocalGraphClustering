@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 # Read graph. This also supports gml and graphml format.
-g = GraphLocal('./datasets/senate.edgelist','edgelist',' ')
+g = GraphLocal('notebooks/datasets/senate.edgelist','edgelist',' ')
 
 # Call the global spectral partitioning algorithm.
 eig2 = fiedler(g)
