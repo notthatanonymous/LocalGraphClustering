@@ -1,5 +1,5 @@
-# import sys
-# sys.path.append("../LocalGraphClustering/")
+import sys
+sys.path.append("../LocalGraphClustering/")
 import localgraphclustering as lgc
 from collections import Counter,defaultdict
 import numpy as np
@@ -19,7 +19,7 @@ for i,line in enumerate(lines):
     nnodes += 1
     clusters[tmp[-1]].append(i)
 
-rptr = open("notebooks/dataset/cora/cora.content","r")
+rptr = open("notebooks/flow_paper_experiments/dataset/cora/cora.cites","r")
 lines = rptr.readlines()
 rptr.close()
 
