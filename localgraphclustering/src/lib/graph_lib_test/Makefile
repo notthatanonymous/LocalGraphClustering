@@ -11,7 +11,7 @@ endif
 LIB := libgraph.$(SHAREDLIB_EXT)
 
 CC := $(CXX)
-CXXFLAGS := -g -std=c++11 -Wall -Wshadow -fPIC
+CXXFLAGS := -g -std=c++11 -Wall -Wshadow -fPIC -lmingw32
 
 SWEEPCUT_SRCS = ../sweepcut.cpp sweepcut_test.cpp readData.cpp
 ACLPAGERANK_SRCS = ../aclpagerank.cpp aclpagerank_test.cpp readData.cpp
