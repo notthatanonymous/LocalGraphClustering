@@ -46,6 +46,7 @@ install:
   - pip3 install --upgrade pip
   - pip3 install -r requirements.txt
   - pip3 install --upgrade setuptools wheel
+  - bash bin/createGraphLibFile.sh # specific to this project
   - pip3 install .
 script:
   - travis_wait 80 python3 example.py || travis_wait 80 python example.py
